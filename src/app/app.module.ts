@@ -21,13 +21,15 @@ import {MatCardModule} from "@angular/material/card";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { SignInComponent } from './security/pages/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    StudentsComponent
+    StudentsComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
